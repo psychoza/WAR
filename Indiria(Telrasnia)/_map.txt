@@ -1,0 +1,21 @@
+                                         Temple
+                                           ^
+                                           |
+                                           |
+                                           |
+                                           |
+                                           |
+                        Castle<-------Outter City<-------Entrance
+                                           |
+                                           |
+                                           |
+                                           |
+                                           |
+                                           v
+                                        Barracks
+
+
+Outter City: Venders?
+Barraks: Quartermaster / entrance to battlefield.
+Temple: Explore area? Eq mob?
+Castle: Queen Eq mob
