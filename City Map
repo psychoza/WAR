@@ -1,0 +1,28 @@
+City Map
+
+    P   A
+    |   |
+C---O---I---G---E
+    |   |   |
+    X-S W   R
+    |
+    T
+
+E : Entrance
+G : Gate
+	2x Guards, will not let you pass unless you have joined the fight for <city>. Message would be something like "Sorry <playername>, you may not enter unless you sign up with the recruiter over there."
+	'enter' can be used once a player has joined
+R : Recruiter
+	1x Recruiter, a man sitting at a table with ink, quill, and parchment sitting infront of him with a ledger of names.
+		'signup' or 'enlist' can be used to join the fight for <city>
+W : Weaponsmith
+A : Armourer
+O : Central Square of <city>
+S : General Store
+P : Wizard tower / portal room to the front lines.
+I : Inside gates
+X : Outside temple
+T : Temple (future area for exploring / eq mobs)
+C : Castle (future area for exploring / eq mobs)
+
+12 Rooms

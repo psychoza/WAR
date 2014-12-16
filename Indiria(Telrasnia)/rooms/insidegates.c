@@ -13,20 +13,16 @@ void reset(status arg){
   if (arg) return;
   ::reset();
   property = ({ "outdoors" });
-  short_desc = southbirchstreet_2_short; // Needs a description
-  long_desc  = southbirchstreet_2_long; // Needs a description
+  short_desc = insidegates_short;
+  long_desc  = insidegates_long;
  dest_dir = ({
-    roomdir + "southbirchstreet_1", "north",
-    roomdir + "southbirchstreet_3", "south",
+    roomdir + "armoury", "north",
+    roomdir + "weaponry", "south",
+    roomdir + "centralsquare", "west",
+    roomdir + "gates", "out",
   });
   items = ({
-    "ground", southbirchstreet_2_ground, // Needs a description
+    "ground", insidegates_ground,
     "floor", "=ground",
-    "buildings", southbirchstreet_2_buildings, // Needs a description
-    "building", "=buildings",
-    "houses", "=buildings",
-    "house", "=buildings",
-    "shops", "=buildings",
-    "shop", "=buildings",
   });
 }

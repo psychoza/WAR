@@ -13,21 +13,22 @@ void reset(status arg){
   if (arg) return;
   ::reset();
   property = ({ "outdoors" }); // Sets the room as "outdoors" so you can la sky etc.
-  short_desc = gate_short; // Sets the rooms short description (the one used in "brief" mode)
-  long_desc  = gate_long; // Sets the rooms long description (the one used in "verbose" mode) // Needs a description
- dest_dir = ({
-    roomdir + "dukeboulevard_1", "gates", // Adds to the room's "destination directories" the "gates" exit which moves the player to "dukeboulevard_1"
-    roomdir + "outworld", "out", // Adds to the room's "destination directories" the "out" exit which moves the player to "outworld"
+  short_desc = gates_short; // Sets the rooms short description (the one used in "brief" mode)
+  long_desc  = gates_long; // Sets the rooms long description (the one used in "verbose" mode) // Needs a description
+  dest_dir = ({
+    roomdir + "entrance", "east", // Adds to the room's "destination directories" the "east" exit which moves the player to "entrance"
+    roomdir + "recruiter", "south", // Adds to the room's "destination directories" the "south" exit which moves the player to "recruiter"
+    roomdir + "insidegates", "enter", // Adds to the room's "destination directories" the "enter" exit which moves the player to "insidegates"
   });
   items = ({
-    "ground", gate_ground, //Adds an item "ground" to the room's "items" so a player can la "ground" // Needs a description
+    "ground", gates_ground, //Adds an item "ground" to the room's "items" so a player can la "ground" // Needs a description
     "floor", "=ground", // If a player does "la floor" it will result in the same as "la ground"
-    "gates", gate_gates, // Needs a description
+    "gates", gates_gates, // Needs a description
     "gate", "=gates",
     "portcullis", "=gates",
-    "grass", gate_grass, // Needs a description
+    "grass", gates_grass, // Needs a description
     "weeds", "=grass",
-    "wall", gate_wall, // Needs a description
+    "wall", gates_wall, // Needs a description
     "walls", "=wall",
   });
 }

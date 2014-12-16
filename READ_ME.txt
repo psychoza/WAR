@@ -2,9 +2,9 @@ This folder "War" is to be renamed to something better in the future.
 
 The premise of this "area" is to have two warring cities that players can join in their fight by choosing a faction once a day when they are of high enough worth (250m-500m?).
 
-The reward for fighting for their chosen faction is once per day (in game time) maybe at Noon- 1pm game time, each faction's quartermaster will award a random item to the person who aided their faction's cause the most that day.
+The reward for fighting for their chosen faction is once per day (in game time) maybe at Noon- 1pm game time, each faction's quartermaster will award a random item to the person who aided their faction's cause the most that day. This will in theory give players cause to log in, go to this area, and kill some monsters. Higher players can sell off the items they won that day and lower players can have a new area to explore / gain experience at.
 
-This item can come from a random generated item list.
+The reward item can come from a random generated item list so each in game day holds a different reward.
 
 Item Slot |  Roll  |   Name   |
 Foot      | 1-10   | Boots    |
@@ -27,9 +27,11 @@ Wool      |  ????  | +Wis   |
 Silk      |  ????  | +Cha   |
 
 Suffix    |  Roll  | Bonus  |
-Magi      |   ?    | Spr    |
+of the Magi      |   ?    | Spr    |
 Troll     |   ?    | Hpr    |
-Undead    |   ?    | Darkvision/Emits darkness |
+of the Undead    |   ?    | Darkvision/Emits darkness |
+of the Demon
+
 
 Ex.  Steel Gloves of the Magi
 Hand slot, +con, +spr
